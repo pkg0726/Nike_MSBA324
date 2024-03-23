@@ -11,7 +11,7 @@ library(ggplot2) # for visualization
 library(tm) # for text mining
 
 # Read the CSV file containing tweets data
-tweets <- read.csv("justdoit_tweets_5000.csv", fileEncoding = "UTF-8")
+tweets <- read.csv("tweets_justdoit_5000.csv", fileEncoding = "UTF-8")
 
 # Selecting the necessary columns for processing
 tweets_selected <- tweets %>%
